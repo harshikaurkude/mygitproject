@@ -1,10 +1,18 @@
 public class Hello
 {
+
+  public void func()
+  {
+    System.out.println("New method");
+   
+  }
   public static void main(Strings args[])
   {
- 
+         
+         Hello h=new Hello();
          System.out.println("Hello");
          System.out.println("World");
          System.out.println("Of git");
+         h.func();
   }
 }
